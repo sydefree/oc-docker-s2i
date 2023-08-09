@@ -3,4 +3,4 @@
 FROM registry.access.redhat.com/ubi7:latest
 
 # CMD ["/bin/bash", "-c", "sleep infinity"]
-CMD ["/bin/bash", "-c", "--", "while true; date ; do sleep 30; done;"]
+CMD ["/bin/bash", "-c", "--", "while true; date ; echo 'Sylvain was here' ; do sleep 30; done;"]
